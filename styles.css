@@ -29,8 +29,8 @@
 }
 
 #navbar__logo {
-  background-color: red;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb1 100%);
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -136,11 +136,11 @@
     font-size: 1.6rem;
   }
 
-  .navbar__logo{
+  #navbar__logo{
     padding-left: 25px;
   }
 
-  .nabvar__toggle .bar{
+  .navbar__toggle .bar{
     width: 25px;
     height: 3px;
     margin: 5px auto;
@@ -179,10 +179,10 @@
     margin: 0;
   }
 
-  .nabvar__toggle .bar{
+  .navbar__toggle .bar{
     display: block;
     cursor: pointer;
-  } 
+  }
 
   #mobile-menu.is-active .bar:nth-child(2){
     opacity: 0;
